@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-small);
+}
+
+.title {
+  width: calc(50% - var(--spacing-small));
+}
+
+.meta {
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+}
